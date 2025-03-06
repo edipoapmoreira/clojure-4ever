@@ -1,0 +1,4 @@
+(ns clojure-4ever.problem-5-conj)
+
+(println (= '(1 2 3 4) (conj '(2 3 4) 1)))
+(println (= '(1 2 3 4) (conj '(3 4) 2 1)))
